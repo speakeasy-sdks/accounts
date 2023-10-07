@@ -15,15 +15,16 @@ Create a pet
 
 ```typescript
 import { Accounts } from "accounts";
-import { CreatePetsResponse } from "accounts/dist/sdk/models/operations";
 
-const sdk = new Accounts();
+(async() => {
+  const sdk = new Accounts();
 
-sdk.pets.createPets().then((res: CreatePetsResponse) => {
+  const res = await sdk.pets.createPets();
+
   if (res.statusCode == 200) {
     // handle response
   }
-});
+})();
 ```
 
 ### Parameters
@@ -46,17 +47,16 @@ List all pets
 
 ```typescript
 import { Accounts } from "accounts";
-import { ListPetsResponse } from "accounts/dist/sdk/models/operations";
 
-const sdk = new Accounts();
+(async() => {
+  const sdk = new Accounts();
 
-sdk.pets.listPets({
-  limit: 21453,
-}).then((res: ListPetsResponse) => {
+  const res = await sdk.pets.listPets({});
+
   if (res.statusCode == 200) {
     // handle response
   }
-});
+})();
 ```
 
 ### Parameters
@@ -80,17 +80,18 @@ Info for a specific pet
 
 ```typescript
 import { Accounts } from "accounts";
-import { ShowPetByIdResponse } from "accounts/dist/sdk/models/operations";
 
-const sdk = new Accounts();
+(async() => {
+  const sdk = new Accounts();
 
-sdk.pets.showPetById({
-  petId: "South bandwidth male",
-}).then((res: ShowPetByIdResponse) => {
+  const res = await sdk.pets.showPetById({
+    petId: "South bandwidth male",
+  });
+
   if (res.statusCode == 200) {
     // handle response
   }
-});
+})();
 ```
 
 ### Parameters

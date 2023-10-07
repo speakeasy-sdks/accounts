@@ -3,14 +3,15 @@
 
 ```typescript
 import { Accounts } from "accounts";
-import { CreatePetsResponse } from "accounts/dist/sdk/models/operations";
 
-const sdk = new Accounts();
+(async() => {
+  const sdk = new Accounts();
 
-sdk.pets.createPets().then((res: CreatePetsResponse) => {
+  const res = await sdk.pets.createPets();
+
   if (res.statusCode == 200) {
     // handle response
   }
-});
+})();
 ```
 <!-- End SDK Example Usage -->
