@@ -85,7 +85,7 @@ import { Accounts } from "accounts";
   const sdk = new Accounts();
 
   const res = await sdk.pets.showPetById({
-    petId: "South bandwidth male",
+    petId: "string",
   });
 
   if (res.statusCode == 200) {
