@@ -1,5 +1,5 @@
 # Pets
-(*pets*)
+(*.pets*)
 
 ### Available Operations
 
@@ -20,6 +20,7 @@ import { Accounts } from "accounts";
   const sdk = new Accounts();
 
   const res = await sdk.pets.createPets();
+
 
   if (res.statusCode == 200) {
     // handle response
@@ -52,6 +53,7 @@ import { Accounts } from "accounts";
   const sdk = new Accounts();
 
   const res = await sdk.pets.listPets({});
+
 
   if (res.statusCode == 200) {
     // handle response
@@ -87,6 +89,7 @@ import { Accounts } from "accounts";
   const res = await sdk.pets.showPetById({
     petId: "string",
   });
+
 
   if (res.statusCode == 200) {
     // handle response
