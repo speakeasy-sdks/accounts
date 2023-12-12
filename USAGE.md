@@ -1,8 +1,8 @@
-<!-- Start SDK Example Usage -->
+<!-- Start SDK Example Usage [usage] -->
 ```typescript
 import { Accounts } from "accounts";
 
-(async () => {
+async function run() {
     const sdk = new Accounts();
 
     const res = await sdk.pets.createPets();
@@ -10,7 +10,9 @@ import { Accounts } from "accounts";
     if (res.statusCode == 200) {
         // handle response
     }
-})();
+}
+
+run();
 
 ```
-<!-- End SDK Example Usage -->
+<!-- End SDK Example Usage [usage] -->
