@@ -1,0 +1,57 @@
+lockVersion: 2.0.0
+id: 25bf304e-cfea-41c8-b353-c568a156a504
+management:
+  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docVersion: 1.0.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 0.8.1
+  configChecksum: fcb9c549a4e11adc325e967bfaa8ae34
+  repoURL: https://github.com/speakeasy-sdks/accounts.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/accounts
+features:
+  typescript:
+    core: 3.4.1
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - src/sdk/pets.ts
+  - src/sdk/sdk.ts
+  - .eslintrc.yml
+  - jest.config.js
+  - package-lock.json
+  - package.json
+  - src/index.ts
+  - src/internal/utils/contenttype.ts
+  - src/internal/utils/headers.ts
+  - src/internal/utils/index.ts
+  - src/internal/utils/pathparams.ts
+  - src/internal/utils/queryparams.ts
+  - src/internal/utils/requestbody.ts
+  - src/internal/utils/retries.ts
+  - src/internal/utils/security.ts
+  - src/internal/utils/utils.ts
+  - src/sdk/index.ts
+  - src/sdk/models/errors/sdkerror.ts
+  - src/sdk/types/index.ts
+  - src/sdk/types/rfcdate.ts
+  - tsconfig.json
+  - src/sdk/models/operations/createpets.ts
+  - src/sdk/models/operations/listpets.ts
+  - src/sdk/models/operations/showpetbyid.ts
+  - src/sdk/models/shared/error.ts
+  - src/sdk/models/shared/pet.ts
+  - src/sdk/models/errors/index.ts
+  - src/sdk/models/operations/index.ts
+  - src/sdk/models/shared/index.ts
+  - docs/sdk/models/operations/createpetsresponse.md
+  - docs/sdk/models/operations/listpetsrequest.md
+  - docs/sdk/models/operations/listpetsresponse.md
+  - docs/sdk/models/operations/showpetbyidrequest.md
+  - docs/sdk/models/operations/showpetbyidresponse.md
+  - docs/sdk/models/shared/errort.md
+  - docs/sdk/models/shared/pet.md
+  - docs/sdks/accounts/README.md
+  - docs/sdks/pets/README.md
+  - USAGE.md
+  - .gitattributes
