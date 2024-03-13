@@ -3,17 +3,17 @@ id: 25bf304e-cfea-41c8-b353-c568a156a504
 management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.258.2
-  releaseVersion: 0.8.3
-  configChecksum: 02da2699f31a2f3f86abfd67bb5889cf
+  speakeasyVersion: 1.207.1
+  generationVersion: 2.280.6
+  releaseVersion: 0.8.4
+  configChecksum: f4694e63cb35a1dfe88f0d9590b73b33
   repoURL: https://github.com/speakeasy-sdks/accounts.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/accounts
 features:
   typescript:
-    core: 3.4.7
-    globalServerURLs: 2.82.1
+    core: 3.4.8
+    globalServerURLs: 2.82.2
 generatedFiles:
   - src/sdk/pets.ts
   - src/sdk/sdk.ts
